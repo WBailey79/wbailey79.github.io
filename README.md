@@ -1,1 +1,3 @@
-# wbailey79.github.io
+# Old-School Adventures
+
+This repository contains files for CIS 300 project assignments.
