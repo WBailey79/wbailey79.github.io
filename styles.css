@@ -30,10 +30,14 @@ main { margin: 1rem 0; }
   display: inline-block; background-color: var(--secondary);
   border: 1px solid var(--primary); padding: 0.4rem 0.75rem;
 }
-.image-placeholder {
-  display: grid; place-content: center; text-align: center;
-  border: 1px dashed var(--primary); min-height: 10rem;
+.home-art { margin: 0; align-self: start; }
+.home-art-scene { position: relative; border: 1px solid var(--primary); }
+.home-art-map { display: block; width: 100%; height: auto; }
+.home-art-dice {
+  position: absolute; top: 4%; right: 4%; width: 28%; height: auto;
+  background: white; padding: 0.15rem;
 }
+.home-art figcaption { margin-top: 0.35rem; font-size: 0.85rem; }
 .topic { border: 1px solid var(--accent); padding: 0.65rem 0.8rem; }
 .topic h3, .topic p { margin: 0 0 0.3rem; }
 
